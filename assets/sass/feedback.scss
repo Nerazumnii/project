@@ -1,0 +1,35 @@
+.feedback {
+  margin-bottom: 100px;
+
+  .feedback__text {
+    margin-right: 37px;
+    text-align: right;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    @media screen and (max-width: $xl) {
+      text-align: center;
+      margin-bottom: 40px;
+      margin-right: 0;
+      display: block;
+
+    }
+
+    h2 {
+      margin-bottom: 0;
+
+    }
+
+    p {
+      font-size: 24px;
+      margin-right: 8px;
+      @media screen and (max-width: $xl) {
+        text-align: center;
+        margin: 0;
+
+      }
+    }
+  }
+}

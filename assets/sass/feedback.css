@@ -1,0 +1,23 @@
+.feedback {
+  margin-bottom: 100px;
+}
+
+.feedback__text {
+  margin-right: 37px;
+  text-align: right;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.feedback__text h2 {
+  margin-bottom: 0;
+}
+
+.feedback__text p {
+  font-size: 24px;
+  margin-right: 8px;
+}
+
+/*# sourceMappingURL=feedback.css.map */

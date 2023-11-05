@@ -1,0 +1,55 @@
+
+.promo {
+  margin-bottom: 65px;
+
+  p {
+    margin-bottom: 262px;
+    @media screen and (max-width: $lg) {
+      margin-bottom: 285px;
+    }
+    @media screen and (max-width: $md) {
+      margin-bottom: 20px;
+    }
+  }
+
+  h1 span {
+    color: #FFA239;
+  }
+
+  .promo-bg {
+    height: 628px;
+    background: url("../../public/bg.png") center no-repeat;
+    background-size: contain;
+
+    @media screen and (max-width: $lg) {
+      height: 670px;
+    }
+    @media screen and (max-width: $md) {
+      background: none;
+      height: auto;
+
+    }
+
+    .promo-bg-md {
+      display: none;
+      width: 100%;
+
+      @media screen and (max-width: $md) {
+        display: block;
+        margin-bottom: 20px;
+
+      }
+    }
+  }
+
+  .promo__list li {
+    display: flex;
+    align-items: baseline;
+    gap: 12px;
+    margin-bottom: 8px;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}

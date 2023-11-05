@@ -1,0 +1,17 @@
+.button-primary {
+  padding: 9px 60px;
+  border-radius: 10px;
+  border: none;
+  background: linear-gradient(90deg, #FB8501 -0.07%, #FFB703 100%);
+  transition: box-shadow 300ms, transform 100ms;
+}
+
+.button-primary:focus {
+  transform: scale(0.95);
+}
+
+.button-primary:hover {
+  box-shadow: 0 0 10px 0 #FFB003;
+}
+
+/*# sourceMappingURL=button-primary.css.map */
